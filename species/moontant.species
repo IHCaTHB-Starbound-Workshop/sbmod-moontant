@@ -8,7 +8,7 @@
   "nameGen" : [ "/species/apexmalenamegen.config:names", "/species/apexfemalenamegen.config:names" ],
   "ouchNoises" : [ "/sfx/humanoid/humanhurt_male1.ogg", "/sfx/humanoid/humanhurt_female1.ogg" ],
   "charGenTextLabels" : [ "Skin colour", "Head flab", "Shirt", "Legwear", "Cheek flab", "Chin flab", "Shirt colour", "Legwear colour", "MOONTANT", "Personality" ],
-  "skull" : "/humanoid/apex/dead.png",
+  "skull" : "/humanoid/moontant/dead.png",
   "effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=80f4ffFF?replace=31a6ffFF=39b8e3FF",
   "defaultBlueprints" : {
     "tier1" : [
