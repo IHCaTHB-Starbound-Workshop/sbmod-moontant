@@ -93,7 +93,7 @@
 //  "altOptionAsHairColor" : true,
 //  "altOptionAsUndyColor" : true,
 
-//  "bodyColorAsFacialMaskSubColor" : true,
+  "bodyColorAsFacialMaskSubColor" : true,
 
 //  "hairColorAsBodySubColor" : true,
   "headOptionAsFacialhair" : true,
@@ -128,17 +128,11 @@
     }
   ],
   "bodyColor" : [
-    { "e0975c" : "579", "a85636" : "357", "6f2919" : "135" },
+//(h+4*) highlight ffd5cf, (h+0) base ff9991, (h-7*) shadow1 f06e75, (h-7*) shadow2 e45960, (h-7*) shadow3 b74046, (h-31) eye 581634, (eye-60) tongue 6924a2, (h+120) tear 3aff47
+    { "ffd5cf" : "579", "ff9991" : "357", "f06e75" : "135", "e45960" : "579", "b74046" : "357", "581634" : "135", "6924a2" : "579", "3aff47" : "357" },
     { "e0975c" : "975", "a85636" : "753", "6f2919" : "531" },
     { "e0975c" : "bbb", "a85636" : "999", "6f2919" : "777" }
   ],
-  "undyColor" : [
-    //placeholder blue
-    { "f7e7b2" : "8ac", "d9c189" : "68a", "a38d59" : "468", "735e3a" : "246" },
-    //placeholder brown
-    { "f7e7b2" : "ca8", "d9c189" : "a86", "a38d59" : "864", "735e3a" : "642" },
-    //placeholder grey
-    { "f7e7b2" : "eee", "d9c189" : "ccc", "a38d59" : "aaa", "735e3a" : "888" }
-  ],
+  "undyColor" : [ "" ],
   "hairColor" : [ "" ]
 }
