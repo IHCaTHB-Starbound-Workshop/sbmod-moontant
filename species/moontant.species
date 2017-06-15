@@ -2,12 +2,12 @@
   "kind" : "moontant",
   "charCreationTooltip" : {
     "title" : "moontant",
-    "subTitle" : "Minimalist Race Mod Template",
+    "subTitle" : "L",
     "description" : "Species that utilize existing assets where it can."
   },
   "nameGen" : [ "/species/apexmalenamegen.config:names", "/species/apexfemalenamegen.config:names" ],
   "ouchNoises" : [ "/sfx/humanoid/humanhurt_male1.ogg", "/sfx/humanoid/humanhurt_female1.ogg" ],
-  "charGenTextLabels" : [ "Fur colour", "Hair style", "Shirt", "Legwear", "Skin colour", "Beard style", "Shirt colour", "Legwear colour", "moontant", "Personality" ],
+  "charGenTextLabels" : [ "Skin colour", "Head flab", "Shirt", "Legwear", "Cheek flab", "Chin flab", "Shirt colour", "Legwear colour", "MOONTANT", "Personality" ],
   "skull" : "/humanoid/apex/dead.png",
   "effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=80f4ffFF?replace=31a6ffFF=39b8e3FF",
   "defaultBlueprints" : {
@@ -88,10 +88,10 @@
     ]
   },
 
-//  "altOptionAsFacialMask" : true,
+  "altOptionAsFacialMask" : true,
 //  "altColorAsFacialMaskSubColor" : true,
 //  "altOptionAsHairColor" : true,
-  "altOptionAsUndyColor" : true,
+//  "altOptionAsUndyColor" : true,
 
 //  "bodyColorAsFacialMaskSubColor" : true,
 
@@ -104,27 +104,27 @@
       "name" : "male",
       "image" : "/interface/title/male.png",
       "characterImage" : "/interface/title/moontantmale.png",
-      "hairGroup" : "hairmale",
-      "hair" : [ "1" ],
-      "shirt" : [ "apexcommanderjacket", "apexnavyjacket", "apexofficerjacket", "apexspecialistjacket" ],
-      "pants" : [ "apexcommanderpants", "apexnavypants", "apexofficerpants", "apexspecialistpants" ],
-      "facialHairGroup" : "beardmale",
-      "facialHair" : [ "1" ],
-      "facialMaskGroup" : "",
-      "facialMask" : [ ]
+      "hairGroup" : "hair",
+      "hair" : [ "0", "1", "2", "3", "4", "6", "7", "8", "9", "10", "11" ],
+      "shirt" : [ "" ],
+      "pants" : [ "" ],
+      "facialHairGroup" : "beard",
+      "facialHair" : [ "0", "1", "2", "4", "5", "6", "8" ],
+      "facialMaskGroup" : "mask",
+      "facialMask" : [ "0", "1", "4", "5", "6", "7", "8", "10" ]
     },
     {
       "name" : "female",
       "image" : "/interface/title/female.png",
       "characterImage" : "/interface/title/moontantfemale.png",
-      "hairGroup" : "hairfemale",
-      "hair" : [ "1" ],
-      "shirt" : [ "apexcommanderjacket", "apexnavyjacket", "apexofficerjacket", "apexspecialistjacket" ],
-      "pants" : [ "apexcommanderpants", "apexnavypants", "apexofficerpants", "apexspecialistpants" ],
-      "facialHairGroup" : "beardfemale",
-      "facialHair" : [ "1" ],
-      "facialMaskGroup" : "",
-      "facialMask" : [ ]
+      "hairGroup" : "hair",
+      "hair" : [ "0", "1", "2", "3", "4", "6", "7", "8", "9", "10", "11" ],
+      "shirt" : [ "" ],
+      "pants" : [ "" ],
+      "facialHairGroup" : "beard",
+      "facialHair" : [ "0", "1", "2", "4", "5", "6", "8" ],
+      "facialMaskGroup" : "mask",
+      "facialMask" : [ "0", "1", "4", "5", "6", "7", "8", "10" ]
     }
   ],
   "bodyColor" : [
