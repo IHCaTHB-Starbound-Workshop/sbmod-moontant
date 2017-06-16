@@ -128,10 +128,10 @@
     }
   ],
   "bodyColor" : [
-    { "" },
-    //(h+4*) highlight ffd5cf, (h+0) base ff9991,
-    //(h-7*) shadow1 f06e75, (h-7*) shadow2 e45960, (h-7*) shadow3 b74046
-    //(h-31) eye 581634, (eye-60) tongue 6924a2, (h+120) tear 3aff47
+    { },
+    // (h+4*) highlight ffd5cf, (h+0) base ff9991
+    // (h-7*) shadow1 f06e75, (h-7*) shadow2 e45960, (h-7*) shadow3 b74046
+    // (h-31) eye 581634, (eye-60) tongue 6924a2, (h+120) tear 3aff47
     {
       "ffd5cf" : "ffddcf", "ff9991" : "ffab91",
       "f06e75" : "f07d6e", "e45960" : "e46959", "b74046" : "b74e40",
@@ -146,6 +146,16 @@
       "ffd5cf" : "ffedcf", "ff9991" : "ffcf91",
       "f06e75" : "f0a96e", "e45960" : "e49859", "b74046" : "b77640",
       "581634" : "581916", "6924a2" : "a2249c", "3aff47" : "3affaa"
+    },
+    {
+      "ffd5cf" : "ffffcf", "ff9991" : "f8ff91",
+      "f06e75" : "d8f06e", "e45960" : "cbe459", "b74046" : "a1b740",
+      "581634" : "583a16", "6924a2" : "a2245d", "3aff47" : "3af2ff"
+    },
+    {
+      "ffd5cf" : "cfffcf", "ff9991" : "91ff98",
+      "f06e75" : "6ef086", "e45960" : "59e472", "b74046" : "40b756",
+      "581634" : "345816", "6924a2" : "a26924", "3aff47" : "473aff"
     }
   ],
   "undyColor" : [ "" ],
