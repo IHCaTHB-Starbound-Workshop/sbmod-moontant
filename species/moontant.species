@@ -1,15 +1,15 @@
 {
   "kind" : "moontant",
   "charCreationTooltip" : {
-    "title" : "moontant",
-    "subTitle" : "L",
-    "description" : "Species that utilize existing assets where it can."
+    "title" : "Moontant",
+    "subTitle" : "LUN",
+    "description" : "Amazingly, this Erchius creature is reclaiming it's humanity."
   },
-  "nameGen" : [ "/species/apexmalenamegen.config:names", "/species/apexfemalenamegen.config:names" ],
+  "nameGen" : [ "/species/humanmalenamegen.config:names", "/species/humanfemalenamegen.config:names" ],
   "ouchNoises" : [ "/sfx/humanoid/humanhurt_male1.ogg", "/sfx/humanoid/humanhurt_female1.ogg" ],
   "charGenTextLabels" : [ "Skin colour", "Head flab", "Shirt", "Legwear", "Cheek flab", "Chin flab", "Shirt colour", "Legwear colour", "MOONTANT", "Personality" ],
   "skull" : "/humanoid/moontant/dead.png",
-  "effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=80f4ffFF?replace=31a6ffFF=39b8e3FF",
+  "effectDirectives" : "",
   "defaultBlueprints" : {
     "tier1" : [
 
@@ -89,15 +89,8 @@
   },
 
   "altOptionAsFacialMask" : true,
-//  "altColorAsFacialMaskSubColor" : true,
-//  "altOptionAsHairColor" : true,
-//  "altOptionAsUndyColor" : true,
-
   "bodyColorAsFacialMaskSubColor" : true,
-
-//  "hairColorAsBodySubColor" : true,
   "headOptionAsFacialhair" : true,
-//  "headOptionAsHairColor" : true,
 
   "genders" : [
     {
