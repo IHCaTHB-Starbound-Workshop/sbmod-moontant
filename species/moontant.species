@@ -3,7 +3,7 @@
   "charCreationTooltip" : {
     "title" : "Moontant",
     "subTitle" : "LUN",
-    "description" : "Amazingly, this Erchius creature is reclaiming it's humanity."
+    "description" : "Amazingly, this Erchius creature is reclaiming it's humanity. They have taken a liking to Hylotl fashion and Apex tech."
   },
   "nameGen" : [ "/species/humanmalenamegen.config:names", "/species/humanfemalenamegen.config:names" ],
   "ouchNoises" : [ "/sfx/humanoid/humanhurt_male1.ogg", "/sfx/humanoid/humanhurt_female1.ogg" ],
@@ -17,12 +17,12 @@
       { "item" : "flagapex" },
 
 // Anvil
-      { "item" : "apextier1head" },
-      { "item" : "apextier1chest" },
-      { "item" : "apextier1pants" },
-      { "item" : "apextier2head" },
-      { "item" : "apextier2chest" },
-      { "item" : "apextier2pants" },
+      { "item" : "hylotltier1head" },
+      { "item" : "hylotltier1chest" },
+      { "item" : "hylotltier1pants" },
+      { "item" : "hylotltier2head" },
+      { "item" : "hylotltier2chest" },
+      { "item" : "hylotltier2pants" },
 
       { "item" : "ironshortsword" },
       { "item" : "ironbroadsword" },
@@ -30,12 +30,12 @@
       { "item" : "tungstenhammer" },
 
 // Anvil2
-      { "item" : "apextier3head" },
-      { "item" : "apextier3chest" },
-      { "item" : "apextier3pants" },
-      { "item" : "apextier4head" },
-      { "item" : "apextier4chest" },
-      { "item" : "apextier4pants" },
+      { "item" : "hylotltier3head" },
+      { "item" : "hylotltier3chest" },
+      { "item" : "hylotltier3pants" },
+      { "item" : "hylotltier4head" },
+      { "item" : "hylotltier4chest" },
+      { "item" : "hylotltier4pants" },
 
       { "item" : "titaniumdagger" },
       { "item" : "titaniumspear" },
@@ -43,26 +43,26 @@
       { "item" : "durasteelshortsword" },
 
 // Anvil3
-      { "item" : "apextier5ahead" },
-      { "item" : "apextier5achest" },
-      { "item" : "apextier5apants" },
-      { "item" : "apextier6ahead" },
-      { "item" : "apextier6achest" },
-      { "item" : "apextier6apants" },
+      { "item" : "hylotltier5ahead" },
+      { "item" : "hylotltier5achest" },
+      { "item" : "hylotltier5apants" },
+      { "item" : "hylotltier6ahead" },
+      { "item" : "hylotltier6achest" },
+      { "item" : "hylotltier6apants" },
 
-      { "item" : "apextier5mhead" },
-      { "item" : "apextier5mchest" },
-      { "item" : "apextier5mpants" },
-      { "item" : "apextier6mhead" },
-      { "item" : "apextier6mchest" },
-      { "item" : "apextier6mpants" },
+      { "item" : "hylotltier5mhead" },
+      { "item" : "hylotltier5mchest" },
+      { "item" : "hylotltier5mpants" },
+      { "item" : "hylotltier6mhead" },
+      { "item" : "hylotltier6mchest" },
+      { "item" : "hylotltier6mpants" },
 
-      { "item" : "apextier5shead" },
-      { "item" : "apextier5schest" },
-      { "item" : "apextier5spants" },
-      { "item" : "apextier6shead" },
-      { "item" : "apextier6schest" },
-      { "item" : "apextier6spants" },
+      { "item" : "hylotltier5shead" },
+      { "item" : "hylotltier5schest" },
+      { "item" : "hylotltier5spants" },
+      { "item" : "hylotltier6shead" },
+      { "item" : "hylotltier6schest" },
+      { "item" : "hylotltier6spants" },
 
       { "item" : "aegisaltpistol" },
       { "item" : "aegisaltbow" },
@@ -77,14 +77,14 @@
       { "item" : "apexshiphatch" },
 
 // Spinning Wheel
-      { "item" : "apexcommanderjacket" },
-      { "item" : "apexcommanderpants" },
-      { "item" : "apexnavyjacket" },
-      { "item" : "apexnavypants" },
-      { "item" : "apexofficerjacket" },
-      { "item" : "apexofficerpants" },
-      { "item" : "apexspecialistjacket" },
-      { "item" : "apexspecialistpants" }
+      { "item" : "kimonochest" },
+      { "item" : "kimonolegs" },
+      { "item" : "monkchest" },
+      { "item" : "monklegs" },
+      { "item" : "traditionalchest" },
+      { "item" : "traditionallegs" },
+      { "item" : "traineechest" },
+      { "item" : "traineelegs" }
     ]
   },
 
@@ -99,8 +99,8 @@
       "characterImage" : "/interface/title/moontantmale.png",
       "hairGroup" : "hair",
       "hair" : [ "0", "1", "2", "3", "4", "6", "7", "8", "9", "10", "11" ],
-      "shirt" : [ "" ],
-      "pants" : [ "" ],
+      "shirt" : [ "kimonochest", "monkchest", "traineechest", "traditionalchest" ],
+      "pants" : [ "kimonolegs", "monklegs", "traineelegs", "traditionallegs" ],
       "facialHairGroup" : "beard",
       "facialHair" : [ "0", "1", "2", "4", "5", "6", "8" ],
       "facialMaskGroup" : "mask",
@@ -112,8 +112,8 @@
       "characterImage" : "/interface/title/moontantfemale.png",
       "hairGroup" : "hair",
       "hair" : [ "0", "1", "2", "3", "4", "6", "7", "8", "9", "10", "11" ],
-      "shirt" : [ "" ],
-      "pants" : [ "" ],
+      "shirt" : [ "kimonochest", "monkchest", "traineechest", "traditionalchest" ],
+      "pants" : [ "kimonolegs", "monklegs", "traineelegs", "traditionallegs" ],
       "facialHairGroup" : "beard",
       "facialHair" : [ "0", "1", "2", "4", "5", "6", "8" ],
       "facialMaskGroup" : "mask",

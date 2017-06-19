@@ -1,0 +1,7 @@
+[
+  {
+    "op": "copy",
+    "path": "/items/moontant",
+    "from": "/items/hylotl"
+  }
+]
