@@ -2,7 +2,7 @@
   "kind" : "moontant",
   "charCreationTooltip" : {
     "title" : "Moontant",
-    "subTitle" : "LUN",
+    "subTitle" : "ERC",
     "description" : "Amazingly, this Erchius creature is reclaiming it's humanity. They have taken a liking to Hylotl fashion and Apex tech."
   },
   "nameGen" : [ "/species/humanmalenamegen.config:names", "/species/humanfemalenamegen.config:names" ],
